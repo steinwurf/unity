@@ -6,6 +6,10 @@ of every change, see the Git log.
 
 Latest
 ------
+* tbd
+
+1.0.1
+-----
 * Patch: Remove print.
 
 1.0.0
