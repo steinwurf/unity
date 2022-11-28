@@ -6,6 +6,10 @@ of every change, see the Git log.
 
 Latest
 ------
+* tbd
+
+2.0.0
+-----
 * Major: Depend on Unity master branch (as of 2022-11-28).
 
 1.0.1

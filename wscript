@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 APPNAME = "unity"
-VERSION = "1.0.1"
+VERSION = "2.0.0"
 
 
 def build(bld):
