@@ -6,7 +6,6 @@ VERSION = "2.0.0"
 
 
 def build(bld):
-
     src = bld.dependency_node("unity-source").find_dir("src")
 
     bld.stlib(
@@ -19,5 +18,4 @@ def build(bld):
     )
 
     if bld.is_toplevel():
-
         bld.recurse("test")
