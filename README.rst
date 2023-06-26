@@ -55,7 +55,7 @@ Usage
 
 Clone this repository to a suitable folder::
 
-Download the source from github by cloning the repository.
+Download the source from GitHub by cloning the repository.
 Issue this command in your terminal::
 
     git clone git://github.com/steinwurf/unity.git
