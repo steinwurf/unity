@@ -6,6 +6,10 @@ of every change, see the Git log.
 
 Latest
 ------
+* tbd
+
+4.0.0
+-----
 * Major: Only build using cmake
 
 3.0.0
