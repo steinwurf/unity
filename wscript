@@ -5,17 +5,22 @@ APPNAME = "unity"
 VERSION = "3.0.0"
 
 
-def build(bld):
-    src = bld.dependency_node("unity-source").find_dir("src")
+def configure(ctx):
 
-    bld.stlib(
-        features="c",
-        source=[src.find_resource("unity.c")],
-        target="unity",
-        includes=[src],
-        export_includes=[src],
-        use=[],
-    )
+    ctx.load("cmake")
 
-    if bld.is_toplevel():
-        bld.recurse("test")
+    if ctx.is_toplevel():
+        ctx.cmake_configure()
+
+
+def options(ctx):
+    ctx.load("cmake")
+
+
+def build(ctx):
+
+    ctx.load("cmake")
+
+    if ctx.is_toplevel():
+        ctx.cmake_build()
+
