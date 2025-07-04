@@ -1,0 +1,14 @@
+{
+    "toolchains": {
+        "commit_id": "f7b9747ab22d7dbbeb23c9f863e735bac883566e",
+        "resolver_info": "1.0.3",
+        "sha1": "443cb23b0570dffd39283d8679ec393ed809302f",
+        "source": "github.com/steinwurf/cmake-toolchains.git"
+    },
+    "unity-source": {
+        "commit_id": "0b92f9b960e4af9afc2b2d0918ce602111682e54",
+        "resolver_info": "0b92f9b960",
+        "sha1": "7a763bfd595439c27b76fac9f2e9e7bcc7bf7b30",
+        "source": "github.com/ThrowTheSwitch/Unity.git"
+    }
+}

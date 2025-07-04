@@ -1,20 +1,21 @@
 [
     {
-        "name": "waf-tools",
-        "resolver": "git",
-        "method": "semver",
-        "major": 5,
-        "sources": [
-            "github.com/steinwurf/waf-tools.git"
-        ]
-    },
-    {
         "name": "unity-source",
         "resolver": "git",
         "method": "checkout",
         "checkout": "0b92f9b960e4af9afc2b2d0918ce602111682e54",
         "sources": [
             "github.com/ThrowTheSwitch/Unity.git"
+        ]
+    },
+    {
+        "name": "toolchains",
+        "internal": true,
+        "resolver": "git",
+        "method": "semver",
+        "major": 1,
+        "sources": [
+            "github.com/steinwurf/cmake-toolchains.git"
         ]
     }
 ]
